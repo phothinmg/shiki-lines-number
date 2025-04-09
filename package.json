@@ -1,0 +1,32 @@
+{
+  "name": "shiki-lines-number",
+  "version": "0.0.1",
+  "description": "Lines number transformer for Shiki Js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc --build --clean && tsc --build"
+  },
+  "keywords": [
+    "transformer",
+    "shiki",
+    "lines-number"
+  ],
+  "author": "Pho Thin Mg",
+  "license": "MIT",
+  "devDependencies": {
+    "@shikijs/types": "^3.2.1",
+    "@types/hast": "^3.0.4",
+    "lwe8-build": "^0.1.7",
+    "typescript": "^5.8.3"
+  },
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  },
+  "files": [
+    "dist/",
+    "readme.md",
+    "LICENSE",
+    "package.json"
+  ]
+}
