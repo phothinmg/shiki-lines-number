@@ -1,3 +1,4 @@
+// cSpell:disable
 import type { ShikiTransformer } from "@shikijs/types";
 import type { Element } from "hast";
 
