@@ -1,10 +1,19 @@
 {
   "name": "shiki-lines-number",
   "version": "0.0.1",
-  "description": "Lines number transformer for Shiki Js",
+  "description": "Lines number transformer for Shiki",
   "type": "module",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "scripts": {
-    "build": "tsc --build --clean && tsc --build"
+    "build": "./build.js"
   },
   "keywords": [
     "transformer",
@@ -28,5 +37,12 @@
     "readme.md",
     "LICENSE",
     "package.json"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phothinmg/shiki-lines-number.git"
+  },
+  "bugs": {
+    "url": "https://github.com/phothinmg/shiki-lines-number/issues"
+  }
 }
