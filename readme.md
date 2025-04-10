@@ -1,5 +1,8 @@
 # shiki-lines-number
 
+![GitHub License][badge-license]
+
+
 Lines number transformer for [Shiki][shiki].
 
 ## Contents
@@ -7,6 +10,9 @@ Lines number transformer for [Shiki][shiki].
 - [Overview](#overview)
 - [Install](#install)
 - [Use](#use)
+  - [Node js](#node-js)
+  - [Cloudflare Workers](#cloudflare-workers)
+  - [CDN Usage](#cdn-usage)
 - [API](#api)
   - [`transformerLinesNumber`](#transformerlinesnumber)
     - [Parameters](#parameters)
@@ -197,3 +203,5 @@ console.log("4");
 [demo-cdn]: https://jsfiddle.net/phothin/z89e51kg/40/
 
 [cloudflare-workers]: https://shiki.matsu.io/guide/install#cloudflare-workers
+
+[badge-license]: https://img.shields.io/github/license/phothinmg/shiki-lines-number?style=for-the-badge&logo=github
