@@ -13,7 +13,9 @@
   "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "scripts": {
-    "build": "./build.js"
+    "build": "./build.js",
+    "check": "biome check src --write",
+    "format": "biome format src --write"
   },
   "keywords": [
     "transformer",
@@ -23,6 +25,7 @@
   "author": "Pho Thin Mg",
   "license": "MIT",
   "devDependencies": {
+    "@biomejs/biome": "^1.9.4",
     "@shikijs/types": "^3.2.1",
     "@types/hast": "^3.0.4",
     "lwe8-build": "^0.1.7",
