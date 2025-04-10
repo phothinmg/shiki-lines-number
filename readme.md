@@ -1,6 +1,6 @@
 # shiki-lines-number
 
-![GitHub License][badge-license]
+![GitHub License](https://img.shields.io/github/license/phothinmg/shiki-lines-number?style=for-the-badge&logo=github)
 
 
 Lines number transformer for [Shiki][shiki].
